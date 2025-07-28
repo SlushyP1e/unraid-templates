@@ -9,26 +9,26 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://github.com/ossrs/oryx</Project>
-  <Overview>Oryx(SRS Stack) is an all-in-one, out-of-the-box, and open-source video solution for creating online video services, including live streaming and WebRTC, on the cloud or through self-hosting. &#xD;
-&#xD;
-If you want to support me send me some smackaroonies my way: https://ko-fi.com/slushypie</Overview>
+  <Overview>
+    Oryx (SRS Stack) is an all‑in‑one, out‑of‑the‑box, open‑source video solution for creating online video services, including live streaming and WebRTC, on the cloud or through self‑hosting.
+  </Overview>
   <Category>MediaApp:Video MediaServer:Video Network:Web Status:Stable</Category>
   <WebUI>https://[IP]:[PORT:1443]/</WebUI>
   <TemplateURL/>
-  <Icon>https://avatars.githubusercontent.com/u/12165287?s=48&amp;amp;v=4</Icon>
+  <Icon>https://avatars.githubusercontent.com/u/12165287?s=48&amp;v=4</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1753692388</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText>If You would like to support me, support me via Ko‑fi</DonateText>
+  <DonateLink>https://ko-fi.com/slushypie</DonateLink>
   <Requires/>
   <Config Name="TZ" Target="TZ" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">Australia/Sydney</Config>
   <Config Name="HOST_OS" Target="HOST_OS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">Unraid</Config>
   <Config Name="HOST_HOSTNAME" Target="HOST_HOSTNAME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">slushyserver</Config>
   <Config Name="HOST_CONTAINERNAME" Target="HOST_CONTAINERNAME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">oryx</Config>
   <Config Name="net.unraid.docker.managed" Target="net.unraid.docker.managed" Default="" Mode="" Description="" Type="Label" Display="always" Required="false" Mask="false">dockerman</Config>
-  <Config Name="&#9;HTTP console/API" Target="2022" Default="" Mode="tcp" Description="&#9;HTTP console/API" Type="Port" Display="always" Required="false" Mask="false">8080</Config>
+  <Config Name="    HTTP console/API" Target="2022" Default="" Mode="tcp" Description="    HTTP console/API" Type="Port" Display="always" Required="false" Mask="false">8080</Config>
   <Config Name="HTTPS console/API" Target="2443" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">1443</Config>
   <Config Name="RTMP ingest" Target="1935" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">1935</Config>
   <Config Name="WebRTC (UDP)" Target="8000" Default="" Mode="udp" Description="" Type="Port" Display="always" Required="false" Mask="false">8000</Config>
