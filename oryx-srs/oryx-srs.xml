@@ -25,7 +25,6 @@
   <Requires/>
   <Config Name="TZ" Target="TZ" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">Australia/Sydney</Config>
   <Config Name="HOST_OS" Target="HOST_OS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">Unraid</Config>
-  <Config Name="HOST_HOSTNAME" Target="HOST_HOSTNAME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">slushyserver</Config>
   <Config Name="HOST_CONTAINERNAME" Target="HOST_CONTAINERNAME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">oryx</Config>
   <Config Name="net.unraid.docker.managed" Target="net.unraid.docker.managed" Default="" Mode="" Description="" Type="Label" Display="always" Required="false" Mask="false">dockerman</Config>
   <Config Name="    HTTP console/API" Target="2022" Default="" Mode="tcp" Description="    HTTP console/API" Type="Port" Display="always" Required="false" Mask="false">8080</Config>
